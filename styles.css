@@ -13,10 +13,19 @@ img.bg {
 	left: 0;
   }
 
+body {
+	top: 200px;;
+	height: 100%;
+	background-image: url('Elliot Woods - July 2018.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center top 80px;
+}
+
 .about {
-	background: white;
-	bottom: 0px;
 	position: absolute;
+	bottom: 0px;
+	background: white;
 	margin: 30px;
 	padding: 30px;
 }
