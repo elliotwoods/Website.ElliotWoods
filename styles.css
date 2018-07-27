@@ -23,9 +23,13 @@ body {
 }
 
 .about {
-	position: absolute;
-	bottom: 0px;
-	background: white;
+	background: rgba(255, 255, 255, 0.8);
 	margin: 30px;
 	padding: 30px;
+}
+
+@media (min-width: 600px) {
+.about {
+	position: absolute;
+	bottom: 0px;
 }
